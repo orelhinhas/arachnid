@@ -2,8 +2,10 @@
 # preinst script for arachnid
 #
 # see: dh_installdeb(1)
+APP_PATH=/var/www/arachnid
+
 set -e 
 /usr/bin/npm install -g phantomjs
 /usr/bin/npm install -g forever
-/usr/bin/npm install
+cd $APP_PATH && /usr/bin/npm install
 exit 0
