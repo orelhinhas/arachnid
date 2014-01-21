@@ -32,7 +32,7 @@ USER=arachnid
 #
 do_start()
 {
-	cd $APP_PATH && npm start 
+	su - $USER -c "cd $APP_PATH && npm start" -s /bin/bash
 }
 
 #
@@ -40,7 +40,7 @@ do_start()
 #
 do_stop()
 {
-	cd $APP_PATH && npm stop
+	su - $USER -c "cd $APP_PATH && npm stop" -s /bin/bash
 }
 
 #

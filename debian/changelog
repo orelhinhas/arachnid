@@ -1,3 +1,9 @@
+arachnid (1.0.6) stable; urgency=low
+
+  * update user in init.d
+
+ -- Joao Gabriel Lisanti <joao.gabriel@clubjudge.com>  Tue, 21 Jan 2014 11:50:42 +0000
+
 arachnid (1.0.5) stable; urgency=low
 
   * include init.d
