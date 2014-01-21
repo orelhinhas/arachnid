@@ -1,0 +1,9 @@
+#!/bin/sh
+# preinst script for arachnid
+#
+# see: dh_installdeb(1)
+set -e 
+/usr/bin/npm install -g phantomjs
+/usr/bin/npm install -g forever
+/usr/bin/npm install
+exit 0

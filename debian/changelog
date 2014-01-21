@@ -1,3 +1,9 @@
+arachnid (1.0.3) stable; urgency=low
+
+  * remove npm install from rules and create a preinst file
+
+ -- Joao Gabriel Lisanti <joao.gabriel@clubjudge.com>  Tue, 21 Jan 2014 11:33:16 +0000
+
 arachnid (1.0.2) stable; urgency=low
 
   * remove conffiles
